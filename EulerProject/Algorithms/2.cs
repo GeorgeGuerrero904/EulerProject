@@ -10,6 +10,7 @@ namespace EulerProject.Algorithms
     {
         public static long fiboEvenSum(int limit)
         {
+            if (limit == 2) return 2;
             List<int> list = new List<int>() { 1, 2 };
             long total = limit > 2 ? 2 : 0;
             while (list.Last() <= limit)
