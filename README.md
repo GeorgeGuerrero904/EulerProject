@@ -3,3 +3,4 @@
 - [Excersice 2 - Even Fibonacci Numbers](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/2.cs)
 - [Excersice 3 - Largest Prime Factor](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/3.cs)
 - [Excersice 4 - Largest Palindrome Product](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/4.cs)
+- [Excersice 5 - Smallest multiple](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/5.cs)
