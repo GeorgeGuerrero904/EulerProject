@@ -8,16 +8,16 @@ namespace EulerProject.Algorithms
 {
     public class _3
     {
-        public static int largestPrimeFactor(int number)
+        public static long largestPrimeFactor(long number)
         {
-            int largestFactor = number;
+            long largestFactor = number;
 
             for (int i = 2; i <= Math.Sqrt(largestFactor); i++)
             {
                 if (largestFactor % i == 0)
                 {
-                    int factor = largestFactor / i;
-                    int candidate = largestPrimeFactor(factor);
+                    long factor = largestFactor / i;
+                    long candidate = largestPrimeFactor(factor);
                     return i > candidate ? i : candidate;
                 }
             }
