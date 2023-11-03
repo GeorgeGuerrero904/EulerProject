@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EulerProject.Algorithms
 {
-    internal class _3
+    public class _3
     {
         public static int largestPrimeFactor(int number)
         {

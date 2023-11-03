@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EulerProject.Algorithms
 {
-    internal class _1
+    public class _1
     {
 
         //Find the sum of all the multiples of 3 or 5 below the provided parameter value number.

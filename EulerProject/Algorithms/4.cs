@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EulerProject.Algorithms
 {
-    internal class _4
+    public class _4
     {
         //Largest palindrome product
         public static int largestPalindromeProduct(int n)

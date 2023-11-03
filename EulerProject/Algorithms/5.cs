@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EulerProject.Algorithms
 {
-    internal class _5
+    public class _5
     {
         public static int smallestMult(int n)
         {

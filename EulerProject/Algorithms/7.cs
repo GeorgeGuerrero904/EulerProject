@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EulerProject.Algorithms
 {
-    internal class _7
+    public class _7
     {
 
         public static int nthPrime(int n)

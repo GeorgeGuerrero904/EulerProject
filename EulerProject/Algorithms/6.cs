@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace EulerProject.Algorithms
 {
-    internal class _6
+    public class _6
     {
         //Sum square difference
         public static double sumSquareDifference(int num)
         {
             double sumOfSquares = 0, squareOfSum = 0;
-
             for (int i = 1; i <= num; i++)
             {
                 sumOfSquares += Math.Pow(i, 2);

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EulerProject.Algorithms
 {
-    internal class _2
+    public class _2
     {
         //By considering the terms in the Fibonacci sequence whose values do not exceed n, find the sum of the even-valued terms.
         public static long fiboEvenSum(int limit)
