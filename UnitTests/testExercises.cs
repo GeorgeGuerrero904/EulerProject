@@ -148,5 +148,20 @@ namespace UnitTests
             Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
         }
 
+        [DataRow(0)]
+        [DataRow(1)]
+        [TestMethod]
+        public void EulerProject_8_returnsLong(int test)
+        {
+            //Arrange
+            IDictionary<int, long> cases = new Dictionary<int, long>() {
+                { 4, 5832 },
+                { 13, 23514624000 }
+            };
+            //Act
+            long res = _8.largestProductinaSeries(cases.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+        }
     }
 }
