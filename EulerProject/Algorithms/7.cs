@@ -12,12 +12,12 @@ namespace EulerProject.Algorithms
 
         public static int nthPrime(int n)
         {
-            List<int> primesList = new List<int>() { 1 };
+            int lastPrime = 1;
             for (int i = 1; i <= n; i++)
             {
-                primesList.Add(getNextPrime(primesList.Last()));
+                lastPrime = getNextPrime(lastPrime);
             }
-            return primesList.Last();
+            return lastPrime;
         }
 
         private static int getNextPrime(int start)
