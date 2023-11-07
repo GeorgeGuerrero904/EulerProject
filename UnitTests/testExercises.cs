@@ -163,5 +163,33 @@ namespace UnitTests
             //Assert
             Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
         }
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [TestMethod]
+        public void EulerProject_9_returnsLong(int test)
+        {
+            //Arrange
+            IDictionary<int, long> cases = new Dictionary<int, long>() {
+                { 24, 480 },
+                { 120, 49920 },
+                { 1000, 31875000 }
+            };
+            //Act
+            long res = _9.specialPythagoreanTriplet(cases.ElementAt(test).Key);
+            //Assert
+            if (cases.ElementAt(test).Key == 120)
+            {
+                Assert.IsTrue(res == cases.ElementAt(test).Value || res == 60000, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+            }
+            else
+            {
+                Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+            }
+        }
+
+
+
     }
 }

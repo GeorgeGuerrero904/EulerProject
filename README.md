@@ -7,3 +7,4 @@
 - [Excersice 6 - Sum square difference](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/6.cs)
 - [Excersice 7 - 10001st prime](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/7.cs)
 - [Excersice 8 - Largest product in a series](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/8.cs)
+- [Excersice 9 - Special Pythagorean triplet](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/9.cs)
