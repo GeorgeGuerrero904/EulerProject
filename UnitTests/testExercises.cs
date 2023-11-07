@@ -188,7 +188,25 @@ namespace UnitTests
                 Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
             }
         }
-
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        //[DataRow(3)] - commenting due it takes 125 minutes to complete
+        [TestMethod]
+        public void EulerProject_10_returnsLong(int test)
+        {
+            //Arrange
+            IDictionary<int, long> cases = new Dictionary<int, long>() {
+                { 17, 41},
+                { 2001, 277050 },
+                { 140759, 873608362 },
+                { 2000000, 142913828922 }
+            };
+            //Act
+            long res = _10.primeSummation(cases.ElementAt(test).Key);
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+        }
 
 
     }

@@ -20,7 +20,7 @@ namespace EulerProject.Algorithms
             return lastPrime;
         }
 
-        private static int getNextPrime(int start)
+        public static int getNextPrime(int start)
         {
             bool primeFound = false;
             while (!primeFound)
