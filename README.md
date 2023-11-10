@@ -9,3 +9,4 @@
 - [Excersice 8 - Largest product in a series](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/8.cs)
 - [Excersice 9 - Special Pythagorean triplet](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/9.cs)
 - [Excersice 10 - Summation of primes](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/10.cs)
+- [Excersice 11 - Summation of primes](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/11.cs)
