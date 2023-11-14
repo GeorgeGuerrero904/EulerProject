@@ -13,3 +13,4 @@
 - [Excersice 12 - Highly divisible triangular number](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/12.cs)
 - [Excersice 13 - Large Sum](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/13.cs)
 - [Excersice 14 - Longest Collatz sequence](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/14.cs)
+- [Excersice 15 - Lattice paths](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/15.cs)

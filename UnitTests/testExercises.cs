@@ -1,4 +1,6 @@
 using EulerProject.Algorithms;
+using System.Numerics;
+
 namespace UnitTests
 {
 
@@ -415,6 +417,26 @@ namespace UnitTests
             };
             //Act
             int res = _14.longestCollatzSequence(cases.ElementAt(test).Key);
+
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+        }
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [TestMethod]
+        public void EulerProject_15_returnsDouble(int test)
+        {
+            //Arrange
+            IDictionary<int, long> cases = new Dictionary<int, long>() {
+                { 4, 70 },
+                { 9, 48620},
+                {20, 137846528820  }
+            };
+
+            //Act
+            BigInteger res = _15.latticePaths(cases.ElementAt(test).Key);
 
             //Assert
             Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
