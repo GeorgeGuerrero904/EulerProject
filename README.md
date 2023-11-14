@@ -11,3 +11,4 @@
 - [Excersice 10 - Summation of primes](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/10.cs)
 - [Excersice 11 - Summation of primes](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/11.cs)
 - [Excersice 12 - Highly divisible triangular number](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/12.cs)
+- [Excersice 13 - Large Sum](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/12.cs)
