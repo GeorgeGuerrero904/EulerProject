@@ -426,7 +426,7 @@ namespace UnitTests
         [DataRow(1)]
         [DataRow(2)]
         [TestMethod]
-        public void EulerProject_15_returnsDouble(int test)
+        public void EulerProject_15_returnsBigInteger(int test)
         {
             //Arrange
             IDictionary<int, long> cases = new Dictionary<int, long>() {
@@ -440,6 +440,25 @@ namespace UnitTests
 
             //Assert
             Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+        }
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [TestMethod]
+        public void EulerProject_16_returnsInt(int test)
+        {  //Arrange
+            IDictionary<int, int> cases = new Dictionary<int, int>() {
+                { 15, 26 },
+                { 128, 166},
+                {1000, 1366  }
+            };
+            //Act
+            int res = _16.powerDigitSum(cases.ElementAt(test).Key);
+
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+
         }
     }
 }

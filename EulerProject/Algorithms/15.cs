@@ -12,6 +12,8 @@ namespace EulerProject.Algorithms
 
         public static BigInteger latticePaths(int gridSize)
         {
+            //(2N)! / (N!)^2
+            //Where N is the grid size
             BigInteger a = (Factorial(gridSize));
             return (Factorial(2 * gridSize)) / (a * a);
         }
