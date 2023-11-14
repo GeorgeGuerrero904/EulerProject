@@ -394,5 +394,30 @@ namespace UnitTests
             //Assert
             Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
         }
+
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [DataRow(4)]
+        [TestMethod]
+        public void EulerProject_14_returnsInt(int test)
+        {
+            //Arrange
+            IDictionary<int, int> cases = new Dictionary<int, int>() {
+                { 14, 9 },
+                { 5847, 3711 },
+                { 46500, 35655 },
+                { 54512, 52527 },
+                { 100000, 77031 },
+                { 1000000, 837799 }
+            };
+            //Act
+            int res = _14.longestCollatzSequence(cases.ElementAt(test).Key);
+
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+        }
     }
 }
