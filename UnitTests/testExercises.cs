@@ -460,5 +460,24 @@ namespace UnitTests
             Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
 
         }
+
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [TestMethod]
+        public void EulerProject_17_returnsInt(int test)
+        {  //Arrange
+            IDictionary<int, int> cases = new Dictionary<int, int>() {
+                { 5, 19},
+                { 150, 1903},
+                { 1000, 21124}
+            };
+            //Act
+            int res = _17.numberLetterCounts(cases.ElementAt(test).Key);
+
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+        }
     }
 }
