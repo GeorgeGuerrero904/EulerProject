@@ -15,3 +15,4 @@
 - [Excersice 14 - Longest Collatz sequence](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/14.cs)
 - [Excersice 15 - Lattice paths](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/15.cs)
 - [Excersice 16 - Power digit sum](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/16.cs)
+- [Excersice 17 - Number letter counts](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/17.cs)
