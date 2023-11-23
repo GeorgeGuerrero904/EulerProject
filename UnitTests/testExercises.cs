@@ -533,10 +533,31 @@ namespace UnitTests
             };
             //Act
             int res = _19.countingSundays(cases.ElementAt(test).Key[0], cases.ElementAt(test).Key[1]);
-            
+
             //Assert
             Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
 
+        }
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [DataRow(4)]
+        [TestMethod]
+        public void EulerProject_20_returnsInt(int test)
+        {
+            //Arrange
+            IDictionary<int, int> cases = new Dictionary<int, int>() {
+                { 10, 27},
+                { 25, 72},
+                { 50, 216},
+                { 75, 432},
+                { 100, 648}
+            };
+
+            //Act
+            int res = _20.sumFactorialDigits(cases.ElementAt(test).Key);
         }
     }
 }
