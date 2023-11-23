@@ -17,3 +17,4 @@
 - [Excersice 16 - Power digit sum](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/16.cs)
 - [Excersice 17 - Number letter counts](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/17.cs)
 - [Excersice 18 - Maximum path sum I](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/18.cs)
+- [Excersice 19 - Counting Sundays](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/19.cs)

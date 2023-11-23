@@ -11,7 +11,7 @@ namespace EulerProject.Algorithms
         public static int maximumPathSumI(int[,] triangle)
         {
             int xIndex = 0, totalSum = triangle[0, 0];
-            for (int i = 1; i < triangle.GetLength(1); i++)
+            for (int i = triangle.GetLength(1)-1; i > 0; i--)
             {
                 int adLeft = triangle[(xIndex == 0 ? 0 : (xIndex - 1)), i];
                 int adDown = triangle[xIndex, i];
