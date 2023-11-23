@@ -558,6 +558,10 @@ namespace UnitTests
 
             //Act
             int res = _20.sumFactorialDigits(cases.ElementAt(test).Key);
+
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+
         }
     }
 }
