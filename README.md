@@ -19,3 +19,4 @@
 - [Excersice 18 - Maximum path sum I](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/18.cs)
 - [Excersice 19 - Counting Sundays](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/19.cs)
 - [Excersice 20 - Factorial digit sum](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/20.cs)
+- [Excersice 21 - Amicable numbers](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/21.cs)

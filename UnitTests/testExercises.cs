@@ -563,5 +563,27 @@ namespace UnitTests
             Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
 
         }
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [TestMethod]
+        public void EulerProject_21_returnsInt(int test)
+        {
+            //Arrange
+            IDictionary<int, int> cases = new Dictionary<int, int>() {
+                { 1000, 504},
+                { 2000, 2898},
+                { 5000, 8442},
+                { 10000, 31626}
+            };
+            //Act
+            int res = _21.sumAmicableNum(cases.ElementAt(test).Key);
+
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+
+
+        }
     }
 }
