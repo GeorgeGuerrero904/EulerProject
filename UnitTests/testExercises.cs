@@ -585,5 +585,23 @@ namespace UnitTests
 
 
         }
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [TestMethod]
+        public void EulerProject_22_returnsInt(int test)
+        {
+            //Arrange
+            IDictionary<string[], int> cases = new Dictionary<string[], int>() {
+                { new string[]{ "THIS", "IS", "ONLY", "A", "TEST" }, 791},
+                { new string[]{ "I", "REPEAT", "THIS", "IS", "ONLY", "A", "TEST" }, 1468}
+            };
+
+            //Act
+            int res = _22.namesScores(cases.ElementAt(test).Key);
+
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+        }
     }
 }
