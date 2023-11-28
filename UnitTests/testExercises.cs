@@ -603,5 +603,28 @@ namespace UnitTests
             //Assert
             Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
         }
+
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [TestMethod]
+        public void EulerProject_23_returnsInt(int test)
+        {
+            //Arrange
+            IDictionary<int, int> cases = new Dictionary<int, int>() {
+                { 10000, 3731004},
+                { 15000, 4039939},
+                { 20000, 4159710},
+                { 28123, 4179871}
+            };
+            //Act
+            int res = _23.sumOfNonAbundantNumbers(cases.ElementAt(test).Key);
+
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+
+        }
     }
 }
