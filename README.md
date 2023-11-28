@@ -21,3 +21,4 @@
 - [Excersice 20 - Factorial digit sum](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/20.cs)
 - [Excersice 21 - Amicable numbers](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/21.cs)
 - [Excersice 22 - Names scores](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/22.cs)
+- [Excersice 23 - Non-abundant sums](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/23.cs)
