@@ -26,3 +26,4 @@ This repo have my solution to the excercises presented on the Euler project at f
 - [Excersice 22 - Names scores](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/22.cs)
 - [Excersice 23 - Non-abundant sums](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/23.cs)
 - [Excersice 24 - Lexicographic permutations](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/24.cs)
+- [Excersice 25 - 1000-digit Fibonacci number](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/25.cs)
