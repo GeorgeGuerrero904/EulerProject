@@ -1,4 +1,7 @@
 # EulerProject
+This repo have my solution to the excercises presented on the Euler project at freeCodeCamp, you can see the list of completed excercises.
+- [FreeCodeCamp list of exercies 5](https://www.freecodecamp.org/learn/project-euler)
+# Exercises
 - [Excersice 1 - Multiple of 3 and 5](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/1.cs)
 - [Excersice 2 - Even Fibonacci Numbers](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/2.cs)
 - [Excersice 3 - Largest Prime Factor](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/3.cs)
@@ -22,3 +25,4 @@
 - [Excersice 21 - Amicable numbers](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/21.cs)
 - [Excersice 22 - Names scores](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/22.cs)
 - [Excersice 23 - Non-abundant sums](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/23.cs)
+- [Excersice 24 - Lexicographic permutations](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/24.cs)

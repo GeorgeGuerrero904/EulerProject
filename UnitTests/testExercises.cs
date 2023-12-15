@@ -626,5 +626,28 @@ namespace UnitTests
             Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
 
         }
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [TestMethod]
+        public void EulerProject_24_returnsLong(int test)
+        {
+            //Arrange
+            IDictionary<int, long> cases = new Dictionary<int, long>() {
+                { 699999, 1938246570},
+                { 899999, 2536987410},
+                { 900000, 2537014689},
+                { 999999, 2783915460}
+            };
+
+            //Act
+            long res = _24.lexicographicPermutations(cases.ElementAt(test).Key);
+
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+
+        }
     }
 }
