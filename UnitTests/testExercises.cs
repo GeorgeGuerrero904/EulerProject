@@ -672,5 +672,31 @@ namespace UnitTests
             Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
 
         }
+
+
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [TestMethod]
+        public void EulerProject_26_returnsInt(int test)
+        {
+            //Arrange
+            IDictionary<int, int> cases = new Dictionary<int, int>() {
+                { 700, 659},
+                { 800, 743},
+                { 900, 887},
+                { 1000, 983}
+            };
+
+            //Act
+            int res = _26.reciprocalCycles(cases.ElementAt(test).Key);
+
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+
+
+        }
     }
 }
