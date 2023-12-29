@@ -698,5 +698,27 @@ namespace UnitTests
 
 
         }
+
+        [DataRow(0)]
+        [DataRow(1)]
+        [DataRow(2)]
+        [DataRow(3)]
+        [TestMethod]
+        public void EulerProject_27_returnsInt(int test)
+        {
+            //Arrange
+            IDictionary<int, int> cases = new Dictionary<int, int>() {
+                { 200, -4925},
+                { 500, -18901},
+                { 800, -43835},
+                { 1000, -59231}
+            };
+            //Act
+            int res = _27.quadraticPrimes(cases.ElementAt(test).Key);
+
+            //Assert
+            Assert.IsTrue(res == cases.ElementAt(test).Value, $"The expected value is {cases.ElementAt(test).Value} but we got {res}");
+
+        }
     }
 }

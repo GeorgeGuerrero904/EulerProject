@@ -1,6 +1,6 @@
 # EulerProject
 This repo have my solution to the excercises presented on the Euler project at freeCodeCamp, you can see the list of completed excercises.
-- [FreeCodeCamp list of exercies 5](https://www.freecodecamp.org/learn/project-euler)
+- [FreeCodeCamp list of exercies](https://www.freecodecamp.org/learn/project-euler)
 # Exercises
 - [Excersice 1 - Multiple of 3 and 5](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/1.cs)
 - [Excersice 2 - Even Fibonacci Numbers](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/2.cs)
@@ -27,3 +27,4 @@ This repo have my solution to the excercises presented on the Euler project at f
 - [Excersice 23 - Non-abundant sums](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/23.cs)
 - [Excersice 24 - Lexicographic permutations](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/24.cs)
 - [Excersice 25 - 1000-digit Fibonacci number](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/25.cs)
+- [Excersice 26 - Reciprocal cycles](https://github.com/GeorgeGuerrero904/EulerProject/blob/master/EulerProject/Algorithms/26.cs)
